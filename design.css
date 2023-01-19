@@ -1,0 +1,301 @@
+body {
+    font-family: "Montserrat";
+    /* text-align: center; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    /* background: #58b4e7; */
+    align-items: center;
+    z-index: 10000;
+}
+
+#header .logo {
+    /* border-radius: 20px; */
+    text-decoration: none;
+}
+
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#header ul li {
+    list-style: none;
+}
+
+#header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.1px #000000;
+    font-weight: 900;
+}
+
+#header ul li a:hover,
+#header ul li a.active {
+    background: black;
+    color: #fff;
+    -webkit-text-stroke: 0.1px #ffffff;
+}
+
+#mountain {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mountain img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#mountain img#hs {
+    z-index: 2;
+}
+
+#mountain img#cc {
+    top: 0;
+    bottom: initial;
+
+}
+
+#txt {
+    position: absolute;
+    color: #fff;
+    left: -40px;
+    z-index: 1;
+    font-size: 6em;
+    font-weight: 800;
+    white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #bedbe5;
+    box-shadow: 0 0 0 2px #bedbe5;
+    font-size: 3rem;
+    color: black;
+
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.test-ah {
+    font-size: 2rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #2DCDDF;
+    color: #fff;
+    text-align: center;
+}
+
+.white-section {
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* Navigation Bar */
+
+/* .navbar {
+    padding: 0 0 4.5rem;
+    color: azure;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: azure;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    /* z-index: 3; */
+
+/* } 
+
+.nav-link:hover {
+    color: azure;
+} */
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #2DCDDF;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 4%;
+}
+
+.row button {
+    background-color: white;
+    color: black;
+}
+
+.row button:hover {
+    background-color: black;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 10%;
+    background-color: #2DCDDF;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    top: -10%;
+    left: 20%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 2%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    margin-top: -112px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
